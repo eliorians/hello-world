@@ -1,10 +1,15 @@
+import java.util.Scanner;
+
 public class Hello {
        public static void main(String[] args) {
+                 Scanner scan = new Scanner(System.in);
+                 String response = ("");
+
                  System.out.println("Hello, Professor.");
-                 java.util.Scanner keyboard = new java.util.Scanner(System.in);
+                 response = scan.nextLine();
                  System.out.println("How are you?");
-                 String response = keyboard.nextLine();
-                 System.out.println("What did you do this weekend?");
-                 response = keyboard.nextLine();
+                 response = scan.nextLine();
+                 System.out.println("Were you at the game this weekend?");
+                 response = scan.nextLine();
                     }
 }
