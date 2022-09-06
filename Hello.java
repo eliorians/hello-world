@@ -4,5 +4,7 @@ public class Hello {
                  java.util.Scanner keyboard = new java.util.Scanner(System.in);
                  System.out.println("How are you?");
                  String response = keyboard.nextLine();
+                 System.out.println("What did you do this weekend?");
+                 response = keyboard.nextLine();
                     }
 }
